@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-common-prefix/
-- Synced: 2026-09-07T22:04:59.707Z
+- Synced: 2026-09-07T22:05:48.707Z
 
 ## Problem Description
 
