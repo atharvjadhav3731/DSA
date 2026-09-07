@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.76 MB
 - Problem URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2134252266/
-- Synced: 2026-09-07T22:25:44.674Z
+- Synced: 2026-09-07T22:26:31.673Z
 
 ## Problem Description
 
