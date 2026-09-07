@@ -7,7 +7,7 @@
  * Topics: Array, String, Trie
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T22:26:59.673Z
+ * Synced: 2026-09-07T22:27:46.674Z
  */
 
 class Solution {
