@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-07T17:56:53.860Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "String",
+    "Trie"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Longest Common Prefix",
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/",
+  "submissionId": "8s15jp"
+}
