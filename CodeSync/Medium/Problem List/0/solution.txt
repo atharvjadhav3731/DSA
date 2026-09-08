@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+ * URL: https://leetcode.com/problems/longest-repeating-character-replacement/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T17:56:23.840Z
+ * Synced: 2026-09-08T17:34:11.668Z
  */
 
 class Solution {
-    public int lengthOfLongestSubstring(String s) {
+    public int characterReplacement(String s, int k) {
         
     }
 }
