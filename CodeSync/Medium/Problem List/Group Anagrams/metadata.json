@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-08T17:34:18.682Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Group Anagrams",
+  "problemUrl": "https://leetcode.com/problems/group-anagrams/description/",
+  "submissionId": "drn945"
+}
