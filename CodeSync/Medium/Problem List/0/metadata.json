@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-09-07T17:56:23.840Z",
+  "submissionTimestamp": "2026-09-08T17:34:11.668Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
-  "submissionId": "yfwx9s"
+  "problemUrl": "https://leetcode.com/problems/longest-repeating-character-replacement/description/",
+  "submissionId": "s76rfx"
 }
