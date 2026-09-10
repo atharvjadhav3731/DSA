@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/?envType=daily-question&envId=2026-09-10
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-10T18:48:02.648Z
+ */
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
