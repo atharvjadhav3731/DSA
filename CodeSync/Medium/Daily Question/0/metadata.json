@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-10T18:48:02.648Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "0",
+  "problemUrl": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/?envType=daily-question&envId=2026-09-10",
+  "submissionId": "ljrsea"
+}
