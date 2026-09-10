@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Nodes Equal to Average of Subtree
+ * URL: https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/?envType=daily-question&envId=2026-09-10
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Tree, Depth-First Search, Binary Tree
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-09-10T18:48:48.950Z
+ */
+
+int[] right = dfs(node.right);
+
+        int sum = left[0] + right[0] + node.val;
+        int count = left[1] + right[1] + 1;
+
+        if (node.val == sum / count) {
+            ans++;
+        }
+
+        return new int[]{sum, count};
+    }
+}
