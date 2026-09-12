@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Score of Non
+ * URL: https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/?envType=daily-question&envId=2026-09-12
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Binary Search, Dynamic Programming, Sorting
+ * Runtime: 3 ms
+ * Memory: N/A
+ * Synced: 2026-09-12T10:52:14.340Z
+ */
+
+if (!a.indices.get(i).equals(b.indices.get(i))) {
+
+                return a.indices.get(i) < b.indices.get(i)
+                        ? a
+                        : b;
+            }
+        }
+
+        return a.indices.size() <= b.indices.size() ? a : b;
+    }
+}
