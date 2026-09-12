@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-12T10:50:27.510Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "2",
+  "problemUrl": "https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/description/?envType=daily-question&envId=2026-09-12",
+  "submissionId": "t5rglu"
+}
