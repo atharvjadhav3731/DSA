@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Image Overlap
+ * URL: https://leetcode.com/problems/image-overlap/submissions/2140858252/?envType=daily-question&envId=2026-09-13
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Matrix
+ * Runtime: 4 ms
+ * Memory: N/A
+ * Synced: 2026-09-13T17:31:10.919Z
+ */
+
+String key = dx + "," + dy;
+
+                int count = map.getOrDefault(key, 0) + 1;
+                map.put(key, count);
+
+                ans = Math.max(ans, count);
+            }
+        }
+
+        return ans;
+    }
+}
