@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Rectangle Overlap
+ * URL: https://leetcode.com/problems/rectangle-overlap/submissions/2141693912/?envType=daily-question&envId=2026-09-14
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Math, Geometry
+ * Runtime: 0 ms
+ * Memory: 42.48 MB
+ * Synced: 2026-09-14T15:15:01.709Z
+ */
+
+rec1[3] <= rec2[1] ||   // rec1 is below rec2
+            rec2[3] <= rec1[1]) {   // rec2 is below rec1
+
+            return false;
+        }
+
+        return true;
+    }
+}
