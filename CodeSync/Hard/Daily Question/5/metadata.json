@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-15T16:27:18.508Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Dynamic Programming",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "5",
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/description/?envType=daily-question&envId=2026-09-15",
+  "submissionId": "2vciwn"
+}
