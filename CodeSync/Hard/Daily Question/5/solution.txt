@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 5
+ * URL: https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/description/?envType=daily-question&envId=2026-09-15
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Two Pointers, String, Dynamic Programming, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-15T16:27:18.508Z
+ */
+
+class Solution {
+    public int maxPalindromes(String s, int k) {
+        
+    }
+}
