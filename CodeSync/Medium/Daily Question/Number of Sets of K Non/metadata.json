@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-16T17:47:52.287Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-09-16T17:49:25.497Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Number of Sets of K Non",
-  "problemUrl": "https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/description/?envType=daily-question&envId=2026-09-16",
-  "submissionId": "mrospy"
+  "problemUrl": "https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/?envType=daily-question&envId=2026-09-16",
+  "submissionId": "6ysdhc"
 }
