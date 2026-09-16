@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: Math, Dynamic Programming, Combinatorics, Prefix Sum
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/description/?envType=daily-question&envId=2026-09-16
-- Synced: 2026-09-16T17:47:52.287Z
+- Problem URL: https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/?envType=daily-question&envId=2026-09-16
+- Synced: 2026-09-16T17:49:25.497Z
 
 ## Problem Description
 
