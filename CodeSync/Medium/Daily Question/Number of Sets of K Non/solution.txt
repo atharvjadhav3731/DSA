@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Sets of K Non
- * URL: https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/description/?envType=daily-question&envId=2026-09-16
+ * URL: https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/?envType=daily-question&envId=2026-09-16
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: Math, Dynamic Programming, Combinatorics, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-09-16T17:47:52.287Z
+ * Synced: 2026-09-16T17:49:25.497Z
  */
 
-class Solution {
-    public int numberOfSets(int n, int k) {
-        
+dp[i][j] = dp[i - 1][j];
+
+                // Choose a segment ending at i
+                for (int p = 0; p < i; p++) {
+                    dp[i][j] = (dp[i][j] + dp[p][j - 1]) % MOD;
+                }
+            }
+        }
+
+        return (int) dp[n - 1][k];
     }
 }
