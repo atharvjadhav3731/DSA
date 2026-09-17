@@ -1,16 +1,18 @@
 {
-  "submissionTimestamp": "2026-09-10T18:48:02.648Z",
+  "submissionTimestamp": "2026-09-17T15:30:45.252Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Tree",
-    "Depth-First Search",
-    "Binary Tree"
+    "Array",
+    "Hash Table",
+    "Binary Search",
+    "Dynamic Programming",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/?envType=daily-question&envId=2026-09-10",
-  "submissionId": "ljrsea"
+  "problemUrl": "https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/description/?envType=daily-question&envId=2026-09-17",
+  "submissionId": "7g7k37"
 }
