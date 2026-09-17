@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Daily Question
 - Difficulty: Medium
-- Topics: Tree, Depth-First Search, Binary Tree
+- Topics: Array, Hash Table, Binary Search, Dynamic Programming, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/?envType=daily-question&envId=2026-09-10
-- Synced: 2026-09-10T18:48:02.648Z
+- Problem URL: https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/description/?envType=daily-question&envId=2026-09-17
+- Synced: 2026-09-17T15:30:45.252Z
 
 ## Problem Description
 
-Given the root of a binary tree, return the number of nodes where the value of the node is equal to the average of the values in its subtree. Note: The average of n elements is the sum of the n elements divided by n and rounded down to the nearest integer. A subtree of root is a tree consisting of root and all of its descendants. Example 1: Input: root = [4,8,5,0,1,null,6] Output: 5 Explanation: For the node with value 4: The average of its subtree is (4 + 8 + 5 + 0 + 1 + 6) / 6 = 24 / 6 = 4. For the node with value 5: The average of its subtree is (5 + 6) / 2 = 11 / 2 = 5. For the node with value 0: The average of its subtree is 0 / 1 = 0. For the node with value 1: The average of its subtree is 1 / 1 = 1. For the node with value 6: The average of its subtree is 6 / 1 = 6. Example 2: Input: root = [1] Output: 1 Explanation: For the node with value 1: The average of its subtree is 1 / 1 = 1. Constraints: The number of nodes in the tree is in the range [1, 1000]. 0 <= Node.val <= 1000
+You are given an array of integers arr and an integer target. You have to find two non-overlapping sub-arrays of arr each with a sum equal target. There can be multiple answers so you have to find an answer where the sum of the lengths of the two sub-arrays is minimum. Return the minimum sum of the lengths of the two required sub-arrays, or return -1 if you cannot find such two sub-arrays. Example 1: Input: arr = [3,2,2,4,3], target = 3 Output: 2 Explanation: Only two sub-arrays have sum = 3 ([3] and [3]). The sum of their lengths is 2. Example 2: Input: arr = [7,3,4,7], target = 7 Output: 2 Explanation: Although we have three non-overlapping sub-arrays of sum = 7 ([7], [3,4] and [7]), but we will choose the first and third sub-arrays as the sum of their lengths is 2. Example 3: Input: arr = [4,3,2,6,2,3,4], target = 6 Output: -1 Explanation: We have only one sub-array of sum = 6. Constraints: 1 <= arr.length <= 105 1 <= arr[i] <= 1000 1 <= target <= 108
 
 ## Explanation
 
-This solution was accepted on LeetCode using Daily Question. The detected topics are Tree, Depth-First Search, Binary Tree. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Daily Question. The detected topics are Array, Hash Table, Binary Search, Dynamic Programming, Sliding Window. Review the synced source file for the implementation details.
