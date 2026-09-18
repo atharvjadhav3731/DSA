@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-18T13:40:17.576Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Greedy",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "1",
+  "problemUrl": "https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/description/?envType=daily-question&envId=2026-09-18",
+  "submissionId": "ffbh4i"
+}
