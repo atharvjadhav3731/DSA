@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Number of Non
+ * URL: https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/description/?envType=daily-question&envId=2026-09-18
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Hash Table, String, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-18T13:41:03.355Z
+ */
+
+class Solution {
+    public List<String> maxNumOfSubstrings(String s) {
+        
+    }
+}
