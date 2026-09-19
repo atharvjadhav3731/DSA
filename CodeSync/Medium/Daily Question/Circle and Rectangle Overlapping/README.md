@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/circle-and-rectangle-overlapping/description/?envType=daily-question&envId=2026-09-19
-- Synced: 2026-09-19T05:50:23.079Z
+- Synced: 2026-09-19T05:51:16.380Z
 
 ## Problem Description
 
