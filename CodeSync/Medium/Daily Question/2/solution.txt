@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2
+ * URL: https://leetcode.com/problems/circle-and-rectangle-overlapping/description/?envType=daily-question&envId=2026-09-19
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Math, Geometry
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-19T05:49:22.760Z
+ */
+
+class Solution {
+    public boolean checkOverlap(int radius, int xCenter, int yCenter, int x1, int y1, int x2, int y2) {
+        
+    }
+}
