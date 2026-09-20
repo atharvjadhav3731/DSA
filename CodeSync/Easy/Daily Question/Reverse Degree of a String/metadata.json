@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-09-20T17:13:25.808Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-09-20T17:15:01.600Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.22 MB",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Reverse Degree of a String",
-  "problemUrl": "https://leetcode.com/problems/reverse-degree-of-a-string/description/?envType=daily-question&envId=2026-09-20",
-  "submissionId": "xhsupt"
+  "problemUrl": "https://leetcode.com/problems/reverse-degree-of-a-string/submissions/2147924756/?envType=daily-question&envId=2026-09-20",
+  "submissionId": "bv3do"
 }
