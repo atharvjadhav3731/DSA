@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: 3498. Reverse Degree of a String
+ * URL: https://leetcode.com/problems/reverse-degree-of-a-string/description/?envType=daily-question&envId=2026-09-20
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: String, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-20T17:14:13.760Z
+ */
+
+class Solution {
+    public int reverseDegree(String s) {
+        int sum = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            int reverseValue = 'z' - s.charAt(i) + 1;
+            sum += reverseValue * (i + 1);
+        }
+
+        return sum;
