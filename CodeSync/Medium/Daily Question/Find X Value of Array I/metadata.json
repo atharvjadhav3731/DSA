@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-21T17:43:06.275Z",
+  "runtime": "0 ms",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Find X Value of Array I",
+  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-i/?envType=daily-question&envId=2026-09-21",
+  "submissionId": "1wsqwu"
+}
