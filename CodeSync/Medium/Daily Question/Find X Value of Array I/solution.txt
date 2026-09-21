@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find X Value of Array I
+ * URL: https://leetcode.com/problems/find-x-value-of-array-i/?envType=daily-question&envId=2026-09-21
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: Array, Math, Dynamic Programming
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-09-21T17:43:06.275Z
+ */
+
+// Add current subarrays to answer
+            for (int r = 0; r < k; r++) {
+                ans[r] += newDp[r];
+            }
+
+            // Move to next position
+            dp = newDp;
+        }
+
+        return ans;
+    }
+}
