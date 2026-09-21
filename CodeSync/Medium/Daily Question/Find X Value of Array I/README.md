@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Math, Dynamic Programming
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-x-value-of-array-i/?envType=daily-question&envId=2026-09-21
-- Synced: 2026-09-21T17:43:06.275Z
+- Memory: 93.73 MB
+- Problem URL: https://leetcode.com/problems/find-x-value-of-array-i/submissions/2148952667/?envType=daily-question&envId=2026-09-21
+- Synced: 2026-09-21T17:43:54.291Z
 
 ## Problem Description
 
