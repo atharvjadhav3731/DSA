@@ -1,17 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-15T16:27:18.508Z",
+  "submissionTimestamp": "2026-09-22T17:56:56.895Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
-    "Two Pointers",
-    "String",
-    "Dynamic Programming",
-    "Greedy"
+    "Array",
+    "Math",
+    "Segment Tree"
   ],
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "5",
-  "problemUrl": "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/description/?envType=daily-question&envId=2026-09-15",
-  "submissionId": "2vciwn"
+  "problemUrl": "https://leetcode.com/problems/find-x-value-of-array-ii/?envType=daily-question&envId=2026-09-22",
+  "submissionId": "ctef58"
 }
