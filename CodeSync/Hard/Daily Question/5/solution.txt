@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 5
- * URL: https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/description/?envType=daily-question&envId=2026-09-15
+ * URL: https://leetcode.com/problems/find-x-value-of-array-ii/?envType=daily-question&envId=2026-09-22
  * Language: Daily Question
  * Difficulty: Hard
- * Topics: Two Pointers, String, Dynamic Programming, Greedy
+ * Topics: Array, Math, Segment Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-15T16:27:18.508Z
+ * Synced: 2026-09-22T17:56:56.895Z
  */
 
 class Solution {
-    public int maxPalindromes(String s, int k) {
+    public int[] resultArray(int[] nums, int k, int[][] queries) {
         
     }
 }
