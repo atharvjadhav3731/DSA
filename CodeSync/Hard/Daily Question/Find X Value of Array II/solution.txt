@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find X Value of Array II
+ * URL: https://leetcode.com/problems/find-x-value-of-array-ii/?envType=daily-question&envId=2026-09-22
+ * Language: Daily Question
+ * Difficulty: Hard
+ * Topics: Array, Math, Segment Tree
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-09-22T17:57:53.298Z
+ */
+
+Node result = query(1, 0, n - 1,
+                                start, n - 1);
+
+            ans[i] = result.cnt[x];
+        }
+
+        return ans;
+    }
+}
