@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 6
- * URL: https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/description/?envType=daily-question&envId=2026-09-16
+ * URL: https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/?envType=daily-question&envId=2026-09-23
  * Language: Daily Question
  * Difficulty: Medium
- * Topics: Math, Dynamic Programming, Combinatorics, Prefix Sum
+ * Topics: Array, Hash Table, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-16T17:47:06.374Z
+ * Synced: 2026-09-23T16:00:46.083Z
  */
 
 class Solution {
-    public int numberOfSets(int n, int k) {
+    public int minOperations(int[] nums, int x) {
         
     }
 }
