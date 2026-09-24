@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 7
+ * URL: https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/?envType=daily-question&envId=2026-09-24
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-24T06:50:51.479Z
+ */
+
+class Solution {
+    public int smallestIndex(int[] nums) {
+        
+    }
+}
