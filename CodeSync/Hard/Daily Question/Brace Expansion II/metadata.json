@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-09-25T07:42:01.873Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Backtracking",
+    "Stack",
+    "Breadth-First Search",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Brace Expansion II",
+  "problemUrl": "https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question&envId=2026-09-25",
+  "submissionId": "y4c8fd"
+}
