@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Hard
 - Topics: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question&envId=2026-09-25
-- Synced: 2026-09-25T07:42:01.873Z
+- Problem URL: https://leetcode.com/problems/brace-expansion-ii/?envType=daily-question&envId=2026-09-25
+- Synced: 2026-09-25T07:43:23.204Z
 
 ## Problem Description
 
