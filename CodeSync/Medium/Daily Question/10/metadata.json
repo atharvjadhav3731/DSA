@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-27T09:38:46.493Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "10",
+  "problemUrl": "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/?envType=daily-question&envId=2026-09-27",
+  "submissionId": "td7eur"
+}
