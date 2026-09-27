@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 10
+ * URL: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/?envType=daily-question&envId=2026-09-27
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: String, Stack, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-27T09:38:46.493Z
+ */
+
+class Solution {
+    public String reverseParentheses(String s) {
+        
+    }
+}
