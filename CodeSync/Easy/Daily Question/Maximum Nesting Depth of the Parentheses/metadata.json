@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-28T18:13:48.861Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.97 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "Maximum Nesting Depth of the Parentheses",
+  "problemUrl": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/submissions/2156336025/?envType=daily-question&envId=2026-09-28",
+  "submissionId": "6qhg9q"
+}
