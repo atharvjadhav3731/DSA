@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-28T18:12:58.909Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "String",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "11",
+  "problemUrl": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/?envType=daily-question&envId=2026-09-28",
+  "submissionId": "iv3rut"
+}
