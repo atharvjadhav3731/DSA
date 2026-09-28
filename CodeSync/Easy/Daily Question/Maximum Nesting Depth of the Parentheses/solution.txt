@@ -1,0 +1,21 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Nesting Depth of the Parentheses
+ * URL: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/submissions/2156336025/?envType=daily-question&envId=2026-09-28
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: String, Stack, Bracket Sequences
+ * Runtime: 0 ms
+ * Memory: 42.97 MB
+ * Synced: 2026-09-28T18:13:48.861Z
+ */
+
+} 
+            else if (ch == ')') {
+                depth--;
+            }
+        }
+
+        return maxDepth;
+    }
+}
