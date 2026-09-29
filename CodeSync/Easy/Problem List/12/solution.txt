@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 12
+ * URL: https://leetcode.com/problems/add-binary/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, String, Bit Manipulation, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-29T18:17:37.479Z
+ */
+
+class Solution {
+    public String addBinary(String a, String b) {
+        
+    }
+}
