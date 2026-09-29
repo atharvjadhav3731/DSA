@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-09-29T18:16:46.822Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix",
+    "Bracket Sequences"
+  ],
+  "platform": "LeetCode",
+  "language": "Daily Question",
+  "problemTitle": "12",
+  "problemUrl": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/description/?envType=daily-question&envId=2026-09-29",
+  "submissionId": "g3cm8d"
+}
