@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Nesting Depth of Two Valid Parentheses Strings
+ * URL: https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/?envType=daily-question&envId=2026-09-30
+ * Language: Daily Question
+ * Difficulty: Medium
+ * Topics: String, Stack, Bracket Sequences
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-09-30T18:06:19.376Z
+ */
+
+ans[i] = depth % 2;
+            } else {
+                ans[i] = depth % 2;
+                depth--;
+            }
+        }
+
+        return ans;
+    }
+}
