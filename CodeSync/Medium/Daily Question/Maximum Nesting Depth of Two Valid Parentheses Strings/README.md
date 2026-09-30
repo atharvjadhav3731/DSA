@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Medium
 - Topics: String, Stack, Bracket Sequences
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/description/?envType=daily-question&envId=2026-09-30
-- Synced: 2026-09-30T18:07:51.841Z
+- Runtime: 0 ms
+- Memory: 45.34 MB
+- Problem URL: https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/submissions/2158480596/?envType=daily-question&envId=2026-09-30
+- Synced: 2026-09-30T18:08:36.884Z
 
 ## Problem Description
 
