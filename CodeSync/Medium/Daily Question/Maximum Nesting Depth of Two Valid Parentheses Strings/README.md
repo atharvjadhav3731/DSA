@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/?envType=daily-question&envId=2026-09-30
-- Synced: 2026-09-30T18:06:19.376Z
+- Synced: 2026-09-30T18:07:05.564Z
 
 ## Problem Description
 
