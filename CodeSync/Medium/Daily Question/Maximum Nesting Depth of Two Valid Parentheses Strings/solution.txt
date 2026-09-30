@@ -1,22 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Nesting Depth of Two Valid Parentheses Strings
- * URL: https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/?envType=daily-question&envId=2026-09-30
+ * URL: https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/description/?envType=daily-question&envId=2026-09-30
  * Language: Daily Question
  * Difficulty: Medium
  * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-30T18:07:05.564Z
+ * Synced: 2026-09-30T18:07:51.841Z
  */
 
-ans[i] = depth % 2;
-            } else {
-                ans[i] = depth % 2;
-                depth--;
-            }
-        }
+class Solution {
+    public int[] maxDepthAfterSplit(String seq) {
+        int[] ans = new int[seq.length()];
+        int depth = 0;
 
-        return ans;
-    }
-}
+        for (int i = 0; i < seq.length(); i++) {
+
+            if (seq.charAt(i) == '(') {
+                depth++;
+                ans[i] = depth % 2;
