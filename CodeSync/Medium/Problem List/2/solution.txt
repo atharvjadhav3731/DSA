@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2
+ * URL: https://leetcode.com/problems/add-two-numbers/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Linked List, Math, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-01T17:59:15.449Z
+ */
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
