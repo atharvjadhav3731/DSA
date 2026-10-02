@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-10-02T18:27:17.019Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "String",
+    "Trie"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "2",
+  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "pf1y2z"
+}
