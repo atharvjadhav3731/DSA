@@ -7,7 +7,7 @@
  * Topics: Array, String, Trie
  * Runtime: 1 ms
  * Memory: 43.15 MB
- * Synced: 2026-10-02T18:28:02.206Z
+ * Synced: 2026-10-02T18:28:52.281Z
  */
 
 class Solution {
