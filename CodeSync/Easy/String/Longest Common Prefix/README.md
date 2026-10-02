@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 43.15 MB
 - Problem URL: https://leetcode.com/problems/longest-common-prefix/submissions/2160466656/?envType=problem-list-v2&envId=string
-- Synced: 2026-10-02T18:28:02.206Z
+- Synced: 2026-10-02T18:28:52.281Z
 
 ## Problem Description
 
