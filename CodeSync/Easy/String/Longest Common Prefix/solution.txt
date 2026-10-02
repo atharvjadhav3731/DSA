@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Common Prefix
+ * URL: https://leetcode.com/problems/longest-common-prefix/submissions/2160466656/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: Array, String, Trie
+ * Runtime: 1 ms
+ * Memory: 43.15 MB
+ * Synced: 2026-10-02T18:28:02.206Z
+ */
+
+class Solution {
+    public static String longestCommonPrefix(String[] strs) {
+
+        String prefix = strs[0];
+
+        for (int i = 1; i < strs.length; i++) {
+
+            int j = 0;
+
+            while (j < prefix.length() &&
