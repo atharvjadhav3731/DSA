@@ -1,24 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/longest-common-prefix/description/
+ * URL: https://leetcode.com/problems/valid-parentheses/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, String, Trie
+ * Topics: String, Stack, Bracket Sequences
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-07T17:56:02.129Z
+ * Synced: 2026-10-03T18:42:37.661Z
  */
 
 class Solution {
-    public static String longestCommonPrefix(String[] strs) {
+    public boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
 
-        String prefix = strs[0];
+        for (char ch : s.toCharArray()) {
 
-        for (int i = 1; i < strs.length; i++) {
-
-            int j = 0;
-
-            while (j < prefix.length() &&
-                   j < strs[i].length() &&
-                   prefix.charAt(j) == strs[i].charAt(j)) {
+            if (ch == '(' || ch == '[' || ch == '{') {
+                stack.push(ch);
+            } 
+            else {
+                if (stack.isEmpty()) {
+                    return false;
