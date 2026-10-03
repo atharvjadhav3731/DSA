@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-09-07T17:56:02.129Z",
+  "submissionTimestamp": "2026-10-03T18:42:37.661Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
     "String",
-    "Trie"
+    "Stack",
+    "Bracket Sequences"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/longest-common-prefix/description/",
-  "submissionId": "5zoido"
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/description/",
+  "submissionId": "zd3kci"
 }
