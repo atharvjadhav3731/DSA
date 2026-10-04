@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-10-03T18:42:37.661Z",
+  "submissionTimestamp": "2026-10-04T18:09:58.845Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "String",
-    "Stack",
-    "Bracket Sequences"
+    "Array",
+    "Hash Table"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/valid-parentheses/description/",
-  "submissionId": "zd3kci"
+  "problemUrl": "https://leetcode.com/problems/two-sum/description/",
+  "submissionId": "xpphqr"
 }
