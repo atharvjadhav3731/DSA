@@ -1,24 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/valid-parentheses/description/
+ * URL: https://leetcode.com/problems/two-sum/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: String, Stack, Bracket Sequences
+ * Topics: Array, Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-03T18:42:37.661Z
+ * Synced: 2026-10-04T18:09:58.845Z
  */
 
 class Solution {
-    public boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
+    public int[] twoSum(int[] nums, int target) {
+        int [] arr = new int[2];
+        for(int i = 0; i<nums.length; i++){
+            for(int j=i+1; j<nums.length; j++){
+                if(nums[i] + nums[j]==target){
+                    arr[0]=i;
+                    arr[1]=j;
+                    break;
 
-        for (char ch : s.toCharArray()) {
 
-            if (ch == '(' || ch == '[' || ch == '{') {
-                stack.push(ch);
-            } 
-            else {
-                if (stack.isEmpty()) {
-                    return false;
+                }
