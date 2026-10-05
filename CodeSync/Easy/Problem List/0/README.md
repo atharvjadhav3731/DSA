@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Array, Hash Table
+- Topics: Math, String, Bit Manipulation, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/two-sum/description/
-- Synced: 2026-10-04T18:09:58.845Z
+- Problem URL: https://leetcode.com/problems/add-binary/description/
+- Synced: 2026-10-05T18:24:28.565Z
 
 ## Problem Description
 
-You are given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order. Example 1: Input: nums = [2,7,11,15], target = 9 Output: [0,1] Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]. Example 2: Input: nums = [3,2,4], target = 6 Output: [1,2] Example 3: Input: nums = [3,3], target = 6 Output: [0,1] Constraints: 2 <= nums.length <= 104 -109 <= nums[i] <= 109 -109 <= target <= 109 Only one valid answer exists. Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
+Given two binary strings a and b, return their sum as a binary string. Example 1: Input: a = "11", b = "1" Output: "100" Example 2: Input: a = "1010", b = "1011" Output: "10101" Constraints: 1 <= a.length, b.length <= 104 a and b consist only of '0' or '1' characters. Each string does not contain leading zeros except for the zero itself.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Math, String, Bit Manipulation, Simulation. Review the synced source file for the implementation details.
