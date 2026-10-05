@@ -1,15 +1,17 @@
 {
-  "submissionTimestamp": "2026-10-04T18:09:58.845Z",
+  "submissionTimestamp": "2026-10-05T18:24:28.565Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Hash Table"
+    "Math",
+    "String",
+    "Bit Manipulation",
+    "Simulation"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/two-sum/description/",
-  "submissionId": "xpphqr"
+  "problemUrl": "https://leetcode.com/problems/add-binary/description/",
+  "submissionId": "euhamr"
 }
