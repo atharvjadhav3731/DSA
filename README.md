@@ -6,29 +6,29 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 
 | Coding Sheet | Solved | Total |
 | :--- | :--- | :--- |
-| Blind 75 | 7 | 75 |
-| Grind 75 | 6 | 75 |
-| Grind 169 | 6 | 169 |
-| Neetcode 150 | 8 | 150 |
+| Blind 75 | 8 | 75 |
+| Grind 75 | 7 | 75 |
+| Grind 169 | 7 | 169 |
+| Neetcode 150 | 9 | 150 |
 | LeetCode 75 | 4 | 75 |
-| Top Interview 150 | 8 | 150 |
+| Top Interview 150 | 9 | 150 |
 | LeetCode 100 Most Liked | 7 | 100 |
 | SQL 50 | 0 | 50 |
-| Strivers A2Z DSA Sheet | 9 | 455 |
+| Strivers A2Z DSA Sheet | 10 | 455 |
 | Striver SDE Sheet | 8 | 191 |
 | Love Babbar Sheet | 4 | 445 |
 | Code Army Sheet | 0 | 726 |
 | GFG 160 | 1 | 160 |
 | CSES Problem Set | 0 | 300 |
 | InterviewBit Sets | 0 | 200 |
-| Nishant Chahar 151 | 4 | 151 |
+| Nishant Chahar 151 | 5 | 151 |
 | Kushal Vijay Patterns | 4 | 100 |
-| DSA by Shradha Didi & Aman Bhaiya | 4 | 403 |
-| Fraz DSA Sheet | 4 | 279 |
-| AlgoMaster 75 | 4 | 75 |
-| 6 Companies 30 Days | 4 | 90 |
-| Striver 79 | 4 | 79 |
-| Atharva Patil's 150 Sheet | 4 | 150 |
+| DSA by Shradha Didi & Aman Bhaiya | 5 | 403 |
+| Fraz DSA Sheet | 5 | 279 |
+| AlgoMaster 75 | 5 | 75 |
+| 6 Companies 30 Days | 5 | 90 |
+| Striver 79 | 5 | 79 |
+| Atharva Patil's 150 Sheet | 5 | 150 |
 | AlgoMaster 300 | 0 | 300 |
 | Arsh DSA Sheet | 0 | 287 |
 | Neetcode 250 | 0 | 250 |
