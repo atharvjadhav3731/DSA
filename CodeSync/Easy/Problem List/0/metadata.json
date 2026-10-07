@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-10-05T18:24:28.565Z",
+  "submissionTimestamp": "2026-10-07T17:53:27.090Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "String",
-    "Bit Manipulation",
-    "Simulation"
+    "Two Pointers",
+    "String"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/add-binary/description/",
-  "submissionId": "euhamr"
+  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
+  "submissionId": "ds3gyh"
 }
