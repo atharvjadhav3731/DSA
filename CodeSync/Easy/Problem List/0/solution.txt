@@ -1,21 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/add-binary/description/
+ * URL: https://leetcode.com/problems/valid-palindrome/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Math, String, Bit Manipulation, Simulation
+ * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-05T18:24:28.565Z
+ * Synced: 2026-10-07T17:53:27.090Z
  */
 
 class Solution {
-    public String addBinary(String a, String b) {
-        StringBuilder ans = new StringBuilder();
+    public boolean isPalindrome(String s) {
+        int left = 0;
+        int right = s.length() - 1;
 
-        int i = a.length() - 1;
-        int j = b.length() - 1;
-        int carry = 0;
+        while (left < right) {
 
-        while (i >= 0 || j >= 0 || carry != 0) {
+            // Skip non-alphanumeric characters
+            while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
+                left++;
+            }
