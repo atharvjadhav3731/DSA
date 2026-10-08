@@ -1,23 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/valid-palindrome/description/
+ * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Two Pointers, String
+ * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T17:53:27.090Z
+ * Synced: 2026-10-08T17:53:09.760Z
  */
 
 class Solution {
-    public boolean isPalindrome(String s) {
-        int left = 0;
-        int right = s.length() - 1;
-
-        while (left < right) {
-
-            // Skip non-alphanumeric characters
-            while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
-                left++;
-            }
+    public int removeDuplicates(int[] nums) {
+        
+    }
+}
