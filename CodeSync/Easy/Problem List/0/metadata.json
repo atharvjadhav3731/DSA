@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-10-07T17:53:27.090Z",
+  "submissionTimestamp": "2026-10-08T17:53:09.760Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Two Pointers",
-    "String"
+    "Array",
+    "Two Pointers"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/valid-palindrome/description/",
-  "submissionId": "ds3gyh"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
+  "submissionId": "m3ptls"
 }
