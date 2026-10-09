@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Roman to Integer
+ * URL: https://leetcode.com/problems/roman-to-integer/submissions/2167560675/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, Math, String
+ * Runtime: 0 ms
+ * Memory: 46.04 MB
+ * Synced: 2026-10-09T18:01:16.115Z
+ */
+
+} else {
+                current < value(s.charAt(i + 1))) {
+                result -= current;
+        for (int i = 0; i < s.length(); i++) {
+            int current = value(s.charAt(i));
+
+            if (i + 1 < s.length() &&
+
+class Solution {
+    public int romanToInt(String s) {
+        int result = 0;
