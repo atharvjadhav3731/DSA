@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+ * URL: https://leetcode.com/problems/roman-to-integer/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Two Pointers
+ * Topics: Hash Table, Math, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-08T17:53:09.760Z
+ * Synced: 2026-10-09T18:00:26.163Z
  */
 
 class Solution {
-    public int removeDuplicates(int[] nums) {
+    public int romanToInt(String s) {
         
     }
 }
