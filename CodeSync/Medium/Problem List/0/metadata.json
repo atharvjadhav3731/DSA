@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-08T17:34:11.668Z",
+  "submissionTimestamp": "2026-10-11T17:54:07.681Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Hash Table",
-    "String",
-    "Sliding Window"
+    "Math"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/longest-repeating-character-replacement/description/",
-  "submissionId": "s76rfx"
+  "problemUrl": "https://leetcode.com/problems/reverse-integer/description/",
+  "submissionId": "h2qfd"
 }
