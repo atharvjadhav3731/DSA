@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/longest-repeating-character-replacement/description/
+ * URL: https://leetcode.com/problems/reverse-integer/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Hash Table, String, Sliding Window
+ * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-08T17:34:11.668Z
+ * Synced: 2026-10-11T17:54:07.681Z
  */
 
 class Solution {
-    public int characterReplacement(String s, int k) {
+    public int reverse(int x) {
         
     }
 }
