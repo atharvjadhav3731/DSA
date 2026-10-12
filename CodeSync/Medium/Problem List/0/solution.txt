@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/reverse-integer/description/
+ * URL: https://leetcode.com/problems/add-two-numbers/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Math
+ * Topics: Linked List, Math, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T17:54:07.681Z
+ * Synced: 2026-10-12T18:00:46.200Z
  */
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
-    public int reverse(int x) {
-        
-    }
-}
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
