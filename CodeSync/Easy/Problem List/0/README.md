@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/roman-to-integer/description/
-- Synced: 2026-10-09T18:00:26.163Z
+- Synced: 2026-10-15T18:28:42.535Z
 
 ## Problem Description
 
