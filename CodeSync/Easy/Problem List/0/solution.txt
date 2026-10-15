@@ -7,11 +7,15 @@
  * Topics: Hash Table, Math, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-09T18:00:26.163Z
+ * Synced: 2026-10-15T18:28:42.535Z
  */
 
 class Solution {
     public int romanToInt(String s) {
-        
-    }
-}
+        int result = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            int current = value(s.charAt(i));
+
+            if (i + 1 < s.length() &&
+                current < value(s.charAt(i + 1))) {
