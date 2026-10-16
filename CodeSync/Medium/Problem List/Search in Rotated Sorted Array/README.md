@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.54 MB
 - Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2174045196/
-- Synced: 2026-10-16T17:40:51.134Z
+- Synced: 2026-10-16T17:41:38.863Z
 
 ## Problem Description
 
