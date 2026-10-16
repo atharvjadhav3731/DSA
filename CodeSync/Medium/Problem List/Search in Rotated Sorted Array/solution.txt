@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Search in Rotated Sorted Array
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2174045196/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Binary Search
+ * Runtime: 0 ms
+ * Memory: 43.54 MB
+ * Synced: 2026-10-16T17:40:01.677Z
+ */
+
+class Solution 
+{
+    public static int search(int nums[], int key) 
+    {
+        int start = 0;
+        int end = nums.length - 1;
+        while (start <= end) 
+        {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] == key)
