@@ -1,21 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/reverse-integer/description/
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Math
+ * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-14T18:08:50.964Z
+ * Synced: 2026-10-16T17:39:10.984Z
  */
 
-class Solution {
-    public int reverse(int x) {
-        int rev = 0;
-
-        while (x != 0) {
-            int digit = x % 10;
-            x = x / 10;
-
-            if (rev > Integer.MAX_VALUE / 10 ||
+class Solution 
+{
+    public static int search(int nums[], int key) 
+    {
+        int start = 0;
+        int end = nums.length - 1;
+        while (start <= end) 
+        {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] == key)
