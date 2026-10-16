@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-10-16T17:40:01.677Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.54 MB",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Search in Rotated Sorted Array",
+  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2174045196/",
+  "submissionId": "70unih"
+}
