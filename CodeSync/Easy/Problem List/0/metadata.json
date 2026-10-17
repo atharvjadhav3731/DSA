@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-10-15T18:28:42.535Z",
+  "submissionTimestamp": "2026-10-17T19:43:13.722Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
     "Math",
-    "String"
+    "String",
+    "Bit Manipulation",
+    "Simulation"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/roman-to-integer/description/",
-  "submissionId": "ghhw14"
+  "problemUrl": "https://leetcode.com/problems/add-binary/description/",
+  "submissionId": "euhamr"
 }
