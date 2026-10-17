@@ -1,21 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/roman-to-integer/description/
+ * URL: https://leetcode.com/problems/add-binary/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Hash Table, Math, String
+ * Topics: Math, String, Bit Manipulation, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T18:28:42.535Z
+ * Synced: 2026-10-17T19:43:13.722Z
  */
 
 class Solution {
-    public int romanToInt(String s) {
-        int result = 0;
+    public String addBinary(String a, String b) {
+        StringBuilder ans = new StringBuilder();
 
-        for (int i = 0; i < s.length(); i++) {
-            int current = value(s.charAt(i));
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        int carry = 0;
 
-            if (i + 1 < s.length() &&
-                current < value(s.charAt(i + 1))) {
+        while (i >= 0 || j >= 0 || carry != 0) {
