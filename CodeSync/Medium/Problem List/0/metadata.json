@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-10-16T17:39:10.984Z",
+  "submissionTimestamp": "2026-10-17T19:42:48.034Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Binary Search"
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
-  "submissionId": "nx52jf"
+  "problemUrl": "https://leetcode.com/problems/maximum-product-subarray/description/",
+  "submissionId": "9a09xb"
 }
