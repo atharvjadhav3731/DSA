@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Binary Search
+- Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-- Synced: 2026-10-16T17:39:10.984Z
+- Problem URL: https://leetcode.com/problems/maximum-product-subarray/description/
+- Synced: 2026-10-17T19:42:48.034Z
 
 ## Problem Description
 
-There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2]. Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums. You must write an algorithm with O(log n) runtime complexity. Example 1: Input: nums = [4,5,6,7,0,1,2], target = 0 Output: 4 Example 2: Input: nums = [4,5,6,7,0,1,2], target = 3 Output: -1 Example 3: Input: nums = [1], target = 0 Output: -1 Constraints: 1 <= nums.length <= 5000 -104 <= nums[i] <= 104 All values of nums are unique. nums is an ascending array that is possibly rotated. -104 <= target <= 104
+Given an integer array nums, find a subarray that has the largest product, and return the product. The test cases are generated so that the answer will fit in a 32-bit integer. Note that the product of an array with a single element is the value of that element. ​​​​​​​Example 1: Input: nums = [2,3,-2,4] Output: 6 Explanation: [2,3] has the largest product 6. Example 2: Input: nums = [-2,0,-1] Output: 0 Explanation: The result cannot be 2, because [-2,-1] is not a subarray. Constraints: 1 <= nums.length <= 2 * 104 -10 <= nums[i] <= 10 The product of any subarray of nums is guaranteed to fit in a 32-bit integer.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Binary Search. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
