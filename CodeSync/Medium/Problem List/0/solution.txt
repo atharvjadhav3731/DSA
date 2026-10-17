@@ -1,22 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+ * URL: https://leetcode.com/problems/maximum-product-subarray/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Binary Search
+ * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T17:39:10.984Z
+ * Synced: 2026-10-17T19:42:48.034Z
  */
 
-class Solution 
-{
-    public static int search(int nums[], int key) 
-    {
-        int start = 0;
-        int end = nums.length - 1;
-        while (start <= end) 
-        {
-            int mid = start + (end - start) / 2;
-            if (nums[mid] == key)
+class Solution {
+    public int maxProduct(int[] nums) {
+        
+    }
+}
