@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Medium
-- Topics: Array, Dynamic Programming
+- Topics: Array, Two Pointers, Greedy
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-product-subarray/description/
-- Synced: 2026-10-17T19:42:48.034Z
+- Problem URL: https://leetcode.com/problems/container-with-most-water/description/
+- Synced: 2026-10-19T17:49:29.023Z
 
 ## Problem Description
 
-Given an integer array nums, find a subarray that has the largest product, and return the product. The test cases are generated so that the answer will fit in a 32-bit integer. Note that the product of an array with a single element is the value of that element. ​​​​​​​Example 1: Input: nums = [2,3,-2,4] Output: 6 Explanation: [2,3] has the largest product 6. Example 2: Input: nums = [-2,0,-1] Output: 0 Explanation: The result cannot be 2, because [-2,-1] is not a subarray. Constraints: 1 <= nums.length <= 2 * 104 -10 <= nums[i] <= 10 The product of any subarray of nums is guaranteed to fit in a 32-bit integer.
+You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]). Find two lines that together with the x-axis form a container, such that the container contains the most water. Return the maximum amount of water a container can store. Notice that you may not slant the container. Example 1: Input: height = [1,8,6,2,5,4,8,3,7] Output: 49 Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49. Example 2: Input: height = [1,1] Output: 1 Constraints: n == height.length 2 <= n <= 105 0 <= height[i] <= 104
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers, Greedy. Review the synced source file for the implementation details.
