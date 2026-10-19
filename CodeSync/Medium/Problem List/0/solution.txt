@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/maximum-product-subarray/description/
+ * URL: https://leetcode.com/problems/container-with-most-water/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Dynamic Programming
+ * Topics: Array, Two Pointers, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-17T19:42:48.034Z
+ * Synced: 2026-10-19T17:49:29.023Z
  */
 
 class Solution {
-    public int maxProduct(int[] nums) {
-        
-    }
-}
+    public int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int maxArea = 0;
+
+        while (left < right) {
+            int width = right - left;
+            int area = width * Math.min(height[left], height[right]);
+            maxArea = Math.max(maxArea, area);
+
+            if (height[left] < height[right]) {
