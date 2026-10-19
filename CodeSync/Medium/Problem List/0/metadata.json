@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-10-17T19:42:48.034Z",
+  "submissionTimestamp": "2026-10-19T17:49:29.023Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Dynamic Programming"
+    "Two Pointers",
+    "Greedy"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/maximum-product-subarray/description/",
-  "submissionId": "9a09xb"
+  "problemUrl": "https://leetcode.com/problems/container-with-most-water/description/",
+  "submissionId": "ld9srw"
 }
