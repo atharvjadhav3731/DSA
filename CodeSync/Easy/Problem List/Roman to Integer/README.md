@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Hash Table, Math, String
-- Runtime: 0 ms
-- Memory: 46.04 MB
-- Problem URL: https://leetcode.com/problems/roman-to-integer/submissions/2167560675/
-- Synced: 2026-10-09T18:03:00.907Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/roman-to-integer/description/
+- Synced: 2026-10-20T17:38:15.930Z
 
 ## Problem Description
 
