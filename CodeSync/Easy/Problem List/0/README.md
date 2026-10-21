@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Math, String, Bit Manipulation, Simulation
+- Topics: Array, Hash Table, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-binary/description/
-- Synced: 2026-10-17T19:43:13.722Z
+- Problem URL: https://leetcode.com/problems/contains-duplicate/description/
+- Synced: 2026-10-21T17:38:32.095Z
 
 ## Problem Description
 
-Given two binary strings a and b, return their sum as a binary string. Example 1: Input: a = "11", b = "1" Output: "100" Example 2: Input: a = "1010", b = "1011" Output: "10101" Constraints: 1 <= a.length, b.length <= 104 a and b consist only of '0' or '1' characters. Each string does not contain leading zeros except for the zero itself.
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct. Example 1: Input: nums = [1,2,3,1] Output: true Explanation: The element 1 occurs at the indices 0 and 3. Example 2: Input: nums = [1,2,3,4] Output: false Explanation: All elements are distinct. Example 3: Input: nums = [1,1,1,3,3,4,3,2,4,2] Output: true Constraints: 1 <= nums.length <= 105 -109 <= nums[i] <= 109
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math, String, Bit Manipulation, Simulation. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
