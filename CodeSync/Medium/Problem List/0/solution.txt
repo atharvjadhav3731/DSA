@@ -1,24 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/container-with-most-water/description/
+ * URL: https://leetcode.com/problems/product-of-array-except-self/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Two Pointers, Greedy
+ * Topics: Array, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-19T17:49:29.023Z
+ * Synced: 2026-10-21T17:37:55.465Z
  */
 
 class Solution {
-    public int maxArea(int[] height) {
-        int left = 0;
-        int right = height.length - 1;
-        int maxArea = 0;
-
-        while (left < right) {
-            int width = right - left;
-            int area = width * Math.min(height[left], height[right]);
-            maxArea = Math.max(maxArea, area);
-
-            if (height[left] < height[right]) {
+    public int[] productExceptSelf(int[] nums) {
+        
+    }
+}
