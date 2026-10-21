@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-10-19T17:49:29.023Z",
+  "submissionTimestamp": "2026-10-21T17:37:55.465Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Two Pointers",
-    "Greedy"
+    "Prefix Sum"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/container-with-most-water/description/",
-  "submissionId": "ld9srw"
+  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/",
+  "submissionId": "m1e7a6"
 }
