@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-10-21T17:37:55.465Z",
+  "submissionTimestamp": "2026-10-22T19:28:17.888Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Prefix Sum"
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/product-of-array-except-self/description/",
-  "submissionId": "m1e7a6"
+  "problemUrl": "https://leetcode.com/problems/maximum-product-subarray/description/",
+  "submissionId": "9a09xb"
 }
