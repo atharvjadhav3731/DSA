@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/product-of-array-except-self/description/
+ * URL: https://leetcode.com/problems/maximum-product-subarray/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Prefix Sum
+ * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-21T17:37:55.465Z
+ * Synced: 2026-10-22T19:28:17.888Z
  */
 
 class Solution {
-    public int[] productExceptSelf(int[] nums) {
+    public int maxProduct(int[] nums) {
         
     }
 }
