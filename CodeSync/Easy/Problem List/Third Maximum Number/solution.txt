@@ -1,0 +1,24 @@
+/*
+ * Platform: LeetCode
+ * Problem: Third Maximum Number
+ * URL: https://leetcode.com/problems/third-maximum-number/submissions/2179945999/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Sorting
+ * Runtime: 1 ms
+ * Memory: 44.05 MB
+ * Synced: 2026-10-23T18:47:09.443Z
+ */
+
+class Solution {
+    public int thirdMax(int[] nums) {
+
+        long first = Long.MIN_VALUE;
+        long second = Long.MIN_VALUE;
+        long third = Long.MIN_VALUE;
+
+        for (int num : nums) {
+
+    
+            if (num == first || num == second || num == third) {
+                continue;
