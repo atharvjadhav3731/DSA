@@ -1,24 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/contains-duplicate/description/
+ * URL: https://leetcode.com/problems/palindrome-number/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Hash Table, Sorting
+ * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-21T17:38:32.095Z
+ * Synced: 2026-10-24T17:56:01.578Z
  */
 
 class Solution {
-    public boolean containsDuplicate(int[] nums) {
-        HashSet<Integer> seen = new HashSet<>();
-
-        for (int num : nums) {
-            if (seen.contains(num)) {
-                return true;
-            }
-            seen.add(num);
-        }
-
-        return false;
+    public boolean isPalindrome(int x) {
+        
+    }
+}
