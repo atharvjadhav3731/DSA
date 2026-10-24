@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-10-21T17:38:32.095Z",
+  "submissionTimestamp": "2026-10-24T17:56:01.578Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Hash Table",
-    "Sorting"
+    "Math"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/contains-duplicate/description/",
-  "submissionId": "izh4vb"
+  "problemUrl": "https://leetcode.com/problems/palindrome-number/description/",
+  "submissionId": "i1x4d5"
 }
