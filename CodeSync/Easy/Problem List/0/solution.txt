@@ -1,23 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/palindrome-number/description/
+ * URL: https://leetcode.com/problems/add-digits/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Math
+ * Topics: Math, Simulation, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T09:16:59.844Z
+ * Synced: 2026-10-26T09:17:33.505Z
  */
 
 class Solution {
-    public boolean isPalindrome(int x) {
-        if (x < 0) {
-            return false;
-        }
-
-        int iOriginal = x;
-        int iReverse = 0;
-
-        while (x != 0) {
-            int iDigit = x % 10;
+    public int addDigits(int num) {
+        
+    }
+}
