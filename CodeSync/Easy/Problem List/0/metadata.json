@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-10-25T15:45:34.139Z",
+  "submissionTimestamp": "2026-10-26T09:16:59.844Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "String",
-    "Sorting"
+    "Math"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/valid-anagram/description/",
-  "submissionId": "pnmslh"
+  "problemUrl": "https://leetcode.com/problems/palindrome-number/description/",
+  "submissionId": "eh5raa"
 }
