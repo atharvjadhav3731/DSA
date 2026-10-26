@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Hash Table, String, Sorting
+- Topics: Math
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-anagram/description/
-- Synced: 2026-10-25T15:45:34.139Z
+- Problem URL: https://leetcode.com/problems/palindrome-number/description/
+- Synced: 2026-10-26T09:16:59.844Z
 
 ## Problem Description
 
-Given two strings s and t, return true if t is an anagram of s, and false otherwise. Example 1: Input: s = "anagram", t = "nagaram" Output: true Example 2: Input: s = "rat", t = "car" Output: false Constraints: 1 <= s.length, t.length <= 5 * 104 s and t consist of lowercase English letters. Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
+Given an integer x, return true if x is a palindrome, and false otherwise. Example 1: Input: x = 121 Output: true Explanation: 121 reads as 121 from left to right and from right to left. Example 2: Input: x = -121 Output: false Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome. Example 3: Input: x = 10 Output: false Explanation: Reads 01 from right to left. Therefore it is not a palindrome. Constraints: -231 <= x <= 231 - 1 Follow up: Could you solve it without converting the integer to a string?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String, Sorting. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Math. Review the synced source file for the implementation details.
