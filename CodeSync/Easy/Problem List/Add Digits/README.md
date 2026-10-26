@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math, Simulation, Number Theory
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/add-digits/
-- Synced: 2026-10-26T09:23:01.691Z
+- Synced: 2026-10-26T09:47:03.184Z
 
 ## Problem Description
 
