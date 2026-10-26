@@ -7,14 +7,15 @@
  * Topics: Math, Simulation, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T09:21:22.069Z
+ * Synced: 2026-10-26T09:22:16.547Z
  */
 
 }
-
-int main()
 int addDigits(int num) {
-    
+    while(num != )
     int iDigit = 0;
     iDgit = num % 10;
     iSum = iSum + iDigit;
+    int iSum = 0;
+    {
+    }
