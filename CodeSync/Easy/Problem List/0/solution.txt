@@ -1,24 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/valid-anagram/description/
+ * URL: https://leetcode.com/problems/palindrome-number/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Hash Table, String, Sorting
+ * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-25T15:45:34.139Z
+ * Synced: 2026-10-26T09:16:59.844Z
  */
 
 class Solution {
-    public boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) {
+    public boolean isPalindrome(int x) {
+        if (x < 0) {
             return false;
         }
 
-        int[] count = new int[26];
+        int iOriginal = x;
+        int iReverse = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            count[s.charAt(i) - 'a']++;
-            count[t.charAt(i) - 'a']--;
-        }
+        while (x != 0) {
+            int iDigit = x % 10;
