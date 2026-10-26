@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-10-26T09:16:59.844Z",
+  "submissionTimestamp": "2026-10-26T09:17:33.505Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math"
+    "Math",
+    "Simulation",
+    "Number Theory"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/palindrome-number/description/",
-  "submissionId": "eh5raa"
+  "problemUrl": "https://leetcode.com/problems/add-digits/description/",
+  "submissionId": "39eoh0"
 }
