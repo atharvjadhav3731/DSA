@@ -7,11 +7,13 @@
  * Topics: Math, Simulation, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T09:18:19.989Z
+ * Synced: 2026-10-26T09:19:05.058Z
  */
 
-class Solution {
-    public int addDigits(int num) {
-        
-    }
+int addDigits(int num) {
+    
+    printf("Input :");
+
 }
+
+int
