@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: Contains Duplicate
+ * URL: https://leetcode.com/problems/contains-duplicate/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-28T17:49:23.646Z
+ */
+
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        HashSet<Integer> seen = new HashSet<>();
+
+        for (int num : nums) {
+            if (seen.contains(num)) {
+                return true;
+            }
