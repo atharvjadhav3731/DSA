@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-10-26T09:17:33.505Z",
+  "submissionTimestamp": "2026-10-28T17:48:38.409Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "Simulation",
-    "Number Theory"
+    "Array",
+    "Hash Table",
+    "Sorting"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/add-digits/description/",
-  "submissionId": "39eoh0"
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate/description/",
+  "submissionId": "3zt3di"
 }
