@@ -1,17 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/add-digits/description/
+ * URL: https://leetcode.com/problems/contains-duplicate/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Math, Simulation, Number Theory
+ * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-26T09:17:33.505Z
+ * Synced: 2026-10-28T17:48:38.409Z
  */
 
-class Solution {
-    public int addDigits(int num) {
-        
-    }
+bool containsDuplicate(int* nums, int numsSize) {
+    
 }
