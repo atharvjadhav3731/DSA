@@ -1,17 +1,22 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/maximum-product-subarray/description/
+ * URL: https://leetcode.com/problems/next-permutation/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Dynamic Programming
+ * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-22T19:28:17.888Z
+ * Synced: 2026-10-29T16:46:32.398Z
  */
 
 class Solution {
-    public int maxProduct(int[] nums) {
-        
-    }
-}
+    public void nextPermutation(int[] nums) {
+        int n = nums.length;
+
+        // 1. Find the pivot
+        int i = n - 2;
+
+        while (i >= 0 && nums[i] >= nums[i + 1]) {
+            i--;
+        }
