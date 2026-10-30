@@ -1,15 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/contains-duplicate/description/
+ * URL: https://leetcode.com/problems/add-binary/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Hash Table, Sorting
+ * Topics: Math, String, Bit Manipulation, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-28T17:48:38.409Z
+ * Synced: 2026-10-30T18:04:28.079Z
  */
 
-bool containsDuplicate(int* nums, int numsSize) {
-    
-}
+class Solution {
+    public String addBinary(String a, String b) {
+        StringBuilder ans = new StringBuilder();
+
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        int carry = 0;
+
+        while (i >= 0 || j >= 0 || carry != 0) {
