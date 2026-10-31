@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Add Binary
+ * URL: https://leetcode.com/problems/add-binary/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, String, Bit Manipulation, Simulation
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-10-31T17:59:36.777Z
+ */
+
+class Solution {
+    public String addBinary(String a, String b) {
+        StringBuilder ans = new StringBuilder();
+
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        int carry = 0;
+
+        while (i >= 0 || j >= 0 || carry != 0) {
+            
+            int sum = carry;
