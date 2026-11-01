@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.10 MB
 - Problem URL: https://leetcode.com/problems/pascals-triangle/submissions/2187220530/
-- Synced: 2026-11-01T18:19:41.285Z
+- Synced: 2026-11-01T19:49:22.744Z
 
 ## Problem Description
 
