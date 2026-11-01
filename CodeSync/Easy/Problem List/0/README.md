@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Math, String, Bit Manipulation, Simulation
+- Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-binary/description/
-- Synced: 2026-10-30T18:04:28.079Z
+- Problem URL: https://leetcode.com/problems/pascals-triangle/description/
+- Synced: 2026-11-01T18:14:40.522Z
 
 ## Problem Description
 
-Given two binary strings a and b, return their sum as a binary string. Example 1: Input: a = "11", b = "1" Output: "100" Example 2: Input: a = "1010", b = "1011" Output: "10101" Constraints: 1 <= a.length, b.length <= 104 a and b consist only of '0' or '1' characters. Each string does not contain leading zeros except for the zero itself.
+Given an integer numRows, return the first numRows of Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: Example 1: Input: numRows = 5 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]] Example 2: Input: numRows = 1 Output: [[1]] Constraints: 1 <= numRows <= 30
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math, String, Bit Manipulation, Simulation. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
