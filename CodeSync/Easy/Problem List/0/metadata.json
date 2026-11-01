@@ -1,17 +1,15 @@
 {
-  "submissionTimestamp": "2026-10-30T18:04:28.079Z",
+  "submissionTimestamp": "2026-11-01T18:14:40.522Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "String",
-    "Bit Manipulation",
-    "Simulation"
+    "Array",
+    "Dynamic Programming"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/add-binary/description/",
-  "submissionId": "euhamr"
+  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/",
+  "submissionId": "xwvgnw"
 }
