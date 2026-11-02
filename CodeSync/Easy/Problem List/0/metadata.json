@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-11-01T18:14:40.522Z",
+  "submissionTimestamp": "2026-11-02T18:19:07.098Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Dynamic Programming"
+    "Hash Table",
+    "Sorting"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/",
-  "submissionId": "xwvgnw"
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate/description/",
+  "submissionId": "yxhru7"
 }
