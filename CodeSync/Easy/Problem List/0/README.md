@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Array, Dynamic Programming
+- Topics: Array, Hash Table, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/pascals-triangle/description/
-- Synced: 2026-11-01T18:14:40.522Z
+- Problem URL: https://leetcode.com/problems/contains-duplicate/description/
+- Synced: 2026-11-02T18:19:07.098Z
 
 ## Problem Description
 
-Given an integer numRows, return the first numRows of Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: Example 1: Input: numRows = 5 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]] Example 2: Input: numRows = 1 Output: [[1]] Constraints: 1 <= numRows <= 30
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct. Example 1: Input: nums = [1,2,3,1] Output: true Explanation: The element 1 occurs at the indices 0 and 3. Example 2: Input: nums = [1,2,3,4] Output: false Explanation: All elements are distinct. Example 3: Input: nums = [1,1,1,3,3,4,3,2,4,2] Output: true Constraints: 1 <= nums.length <= 105 -109 <= nums[i] <= 109
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
