@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/travelling-salesman-problem-using-dynamic-programming/
-- Synced: 2026-11-03T06:45:37.922Z
+- Synced: 2026-11-03T06:47:44.313Z
 
 ## Problem Description
 
