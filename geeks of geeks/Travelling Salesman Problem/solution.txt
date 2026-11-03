@@ -1,0 +1,190 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Travelling Salesman Problem
+ * URL: https://www.geeksforgeeks.org/dsa/travelling-salesman-problem-using-dynamic-programming/
+ * Language: {...} //Driver Code Starts #include <iostream> #include <vector> #include <algorithm> using namespace std; //Driver Code Ends int dfs(vector<vector<int>>& cost, vector<bool>& vis, int last, int cnt) { int n = cost.size(); // If all visited -> return cost back to start (0) if (cnt == n) return cost[last][0]; int minCost = (int)1e9; for (int city = 1; city < n; city++) { if (!vis[city]) { // mark the city as visited and explore // all possible paths from there vis[city] = true; minCost = min(minCost, cost[last][city] + dfs(cost, vis, city, cnt + 1)); // backtrack vis[city] = false; } } // return min cost among all possible paths return minCost; } int tsp(vector<vector<int>>& cost) { int n = cost.size(); // to make sure that a city is visited exactly once vector<bool> vis(n, false); vis[0] = true; return dfs(cost, vis, 0, 1); } {...} //Driver Code Starts int main() { vector<vector<int>> cost = { {0, 10, 15, 20}, {10, 0, 35, 25}, {15, 35, 0, 30}, {20, 25, 30, 0} }; int res = tsp(cost); cout << res; } //Driver Code Ends
+ * Difficulty: Unknown
+ * Topics: Placement 360 Course Explore, Placement 360 Course, Explore
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-03T05:10:31.540Z
+ */
+
+↔​
+    static int dfs(int[][] cost, boolean[] vis, int last, int cnt) {
+        int n = cost.length;
+​
+        // If all visited -> return cost back to start (0)
+        if (cnt == n)
+            return cost[last][0];
+​
+        int minCost = (int)1e9;
+​
+        for (int city = 1; city < n; city++) {  
+            if (!vis[city]) {
+                
+                // mark the city as visited and explore 
+                // all possible paths from there
+                vis[city] = true;
+                minCost = Math.min(minCost, cost[last][city]+
+                                            dfs(cost, vis, city, cnt + 1));
+                                            
+                // backtrack
+                vis[city] = false;
+            }
+        }
+        
+        // return min cost among all possible paths
+        return minCost;
+    }
+ 
+    static int tsp(int[][] cost) {
+        int n = cost.length;
+        
+        // to make sure that a city is visited exactly once
+        boolean[] vis = new boolean[n];
+        vis[0] = true;
+​
+        return dfs(cost, vis, 0, 1); 
+↔​
+↔​
+    static int totalCost(int mask, int pos, int[][] cost) {
+        
+        int n = cost.length;
+        
+        // Base case: if all cities are visited, return the
+        // cost to return to the starting city (0)
+        if (mask == (1 << n) - 1) {
+            return cost[pos][0];
+        }
+        int ans = Integer.MAX_VALUE;
+​
+        // Try visiting every city that 
+        // has not been visited yet
+        for (int i = 0; i < n; i++) {
+            if ((mask & (1 << i)) == 0) {
+              
+                // If city i is not visited, visit it and
+                // update the mask
+                ans = Math.min(ans, cost[pos][i]
+                                    + totalCost(mask | (1 << i), i, cost));
+            }
+        }
+        
+        return ans;
+    }
+ 
+    static int tsp(int[][] cost) {
+        
+        // Start from city 0, and only city 0 is
+        // visited initially (mask = 1)
+        int mask = 1, pos = 0;
+        
+        return totalCost(mask, pos, cost);  
+    }
+↔​
+↔​
+    static int totalCost(int mask, int curr, int[][] cost, int[][] dp) {
+        
+        int n = cost.length;
+        
+        // Base case: if all cities are visited, return the
+        // cost to return to the starting city (0)
+        if (mask == (1 << n) - 1) {
+            return cost[curr][0];
+        }
+​
+        // If the value has already been computed, return it
+        // from the dp table
+        if (dp[curr][mask] != -1) {
+            return dp[curr][mask];
+        }
+​
+        int ans = Integer.MAX_VALUE;
+​
+        // Try visiting every city that has not been visited yet
+        for (int i = 0; i < n; i++) {
+            if ((mask & (1 << i)) == 0) { 
+              
+              // If city i is not visited 
+                // Visit city i and update the mask
+                ans = Math.min(ans, cost[curr][i]
+                                    + totalCost(mask | (1 << i), i, cost, dp));
+            }
+        }
+        
+        return dp[curr][mask] = ans;
+    }
+ 
+    static int tsp(int[][] cost) {
+       
+        int n = cost.length;
+        
+        int[][] dp = new int[n][1 << n];
+        
+        // Initialize the dpization table with -1
+        // (indicating uncomputed states)
+        int mask = 1, curr = 0;
+        
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(dp[i], -1);
+        }
+​
+        // Start from city 0, with only city 0
+        // visited initially (mask = 1)
+        return totalCost(mask, curr, cost, dp);  
+    }
+↔​
+↔​
+    static int tsp(int[][] cost) {
+        int n = cost.length;
+        if (n <= 1) return n == 1 ? cost[0][0] : 0;
+        
+        // maximum cost to visit all cities
+        final int INF = Integer.MAX_VALUE;
+        int FULL = 1 << n, fullMask = FULL - 1;
+        
+        // dp[mask][i] represents the minimum cost to visit all cities
+        // corresponding to the set bits in 'mask', ending at city 'i'
+        int[][] dp = new int[FULL][n];
+        for (int[] row : dp) Arrays.fill(row, INF);
+        dp[1][0] = 0;
+        
+        // iterate over all subsets of cities
+        for (int mask = 1; mask < FULL; mask++) {
+            for (int i = 0; i < n; i++) {
+                
+                // skip if city i is not included in mask
+                if ((mask & (1 << i)) == 0) continue;
+                if (dp[mask][i] == INF) continue;
+                
+                // try to go to every unvisited city j
+                for (int j = 0; j < n; j++) {
+                    
+                    // skip if city j is already visited
+                    if ((mask & (1 << j)) != 0) continue;
+                    
+                    // cost to visit new city j from city i
+                    // such that previously visited cities
+                    // remain visited
+                    int nxt = mask | (1 << j);
+                    dp[nxt][j] = Math.min(dp[nxt][j], 
+                                    dp[mask][i] + cost[i][j]);
+                }
+            }
+        }
+        
+        int ans = INF;
+        for (int i = 0; i < n; i++) {
+            
+            // if last city on path is i and 
+            // cost of path is not infinity
+            if (dp[fullMask][i] != INF) 
+                
+                // update net cost such that city 0 is visited in last
+                ans = Math.min(ans, dp[fullMask][i] + cost[i][0]);
+        }
+        
+        return ans;
+    }
+↔​
