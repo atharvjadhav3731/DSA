@@ -18,7 +18,7 @@ CodeSync automatically tracks your progress across curated coding sheets. Here i
 | Striver SDE Sheet | 11 | 191 |
 | Love Babbar Sheet | 6 | 445 |
 | Code Army Sheet | 0 | 726 |
-| GFG 160 | 1 | 160 |
+| GFG 160 | 2 | 160 |
 | CSES Problem Set | 0 | 300 |
 | InterviewBit Sets | 0 | 200 |
 | Nishant Chahar 151 | 6 | 151 |
