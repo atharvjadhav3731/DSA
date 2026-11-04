@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/submissions/detail/2176470706/
+ * Language: Favorite
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: 5 ms
+ * Memory: 77.00 MB
+ * Synced: 2026-11-04T18:03:14.547Z
+ */
+
+1class Solution {
+2    public int maxArea(int[] height) {
+3        int left = 0;
+4        int right = height.length - 1;
+5        int maxArea = 0;
+6
+7        while (left < right) {
+8            int width = right - left;
+9            int area = width * Math.min(height[left], height[right]);
+10            maxArea = Math.max(maxArea, area);
+11
+12            if (height[left] < height[right]) {
+13                left++;
+14            } else {
+15                right--;
+16            }
+17        }
+18
+19        return maxArea;
+20    }
+21}
