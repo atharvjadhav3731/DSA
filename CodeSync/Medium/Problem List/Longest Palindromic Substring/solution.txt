@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Palindromic Substring
+ * URL: https://leetcode.com/problems/longest-palindromic-substring/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Two Pointers, String, Dynamic Programming, Manacher
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-11-08T17:03:47.790Z
+ */
+
+{
+        while(left >= 0 && right < s.length() &&
+              s.charAt(left) == s.charAt(right))
+        {
+            left--;
+            right++;
+        }
+
+        return right - left - 1;
+    }
+}
