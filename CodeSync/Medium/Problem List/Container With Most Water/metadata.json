@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-11-09T18:23:55.650Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Container With Most Water",
+  "problemUrl": "https://leetcode.com/problems/container-with-most-water/",
+  "submissionId": "hbrs9v"
+}
