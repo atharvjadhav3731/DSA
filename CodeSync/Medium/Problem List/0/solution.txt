@@ -1,23 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/kth-largest-element-in-an-array/description/
+ * URL: https://leetcode.com/problems/3sum/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
+ * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-03T18:05:19.306Z
+ * Synced: 2026-11-10T17:09:22.764Z
  */
 
+import java.util.*;
+
 class Solution {
-    public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
 
-        for (int num : nums) {
-            pq.add(num);
+        Arrays.sort(nums);
 
-            if (pq.size() > k) {
-                pq.poll();
-            }
-        }
+        for (int i = 0; i < nums.length - 2; i++) {
+
+            // Skip duplicate first elements
