@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Search in Rotated Sorted Array
- * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2174045196/
+ * URL: https://leetcode.com/problems/search-in-rotated-sorted-array/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: 0 ms
- * Memory: 43.54 MB
- * Synced: 2026-10-16T17:41:38.863Z
+ * Memory: N/A
+ * Synced: 2026-11-12T18:44:23.183Z
  */
 
 class Solution 
@@ -19,4 +19,5 @@ class Solution
         while (start <= end) 
         {
             int mid = start + (end - start) / 2;
-            if (nums[mid] == key)
+            if (nums[mid] == key) 
+            {
