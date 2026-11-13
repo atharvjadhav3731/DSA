@@ -1,17 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/pascals-triangle-ii/description/
+ * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-11T16:49:56.850Z
+ * Synced: 2026-11-13T17:30:45.597Z
  */
 
 class Solution {
-    public List<Integer> getRow(int rowIndex) {
-        
-    }
-}
+    public int maxProfit(int[] prices) {
+        int minPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+
+        for (int price : prices) {
+            minPrice = Math.min(minPrice, price);
+            maxProfit = Math.max(maxProfit, price - minPrice);
+        }
+
+        return maxProfit;
