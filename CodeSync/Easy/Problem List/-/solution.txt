@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: -
+ * URL: https://leetcode.com/problems/add-digits/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, Simulation, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-15T16:39:05.715Z
+ */
+
+int addDigits(int num) 
+{
+    int iDigit = 0;
+    int iSum = 0;
+    while(num >= 10)
+    {
+        iSum = 0;
+        while(num != 0)
+        {
+            iDigit = num % 10;
+            iSum = iSum + iDigit;
