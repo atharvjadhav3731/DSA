@@ -1,23 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+ * URL: https://leetcode.com/problems/add-digits/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Array, Dynamic Programming
+ * Topics: Math, Simulation, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-13T17:30:45.597Z
+ * Synced: 2026-11-17T17:32:53.262Z
  */
 
-class Solution {
-    public int maxProfit(int[] prices) {
-        int minPrice = Integer.MAX_VALUE;
-        int maxProfit = 0;
-
-        for (int price : prices) {
-            minPrice = Math.min(minPrice, price);
-            maxProfit = Math.max(maxProfit, price - minPrice);
-        }
-
-        return maxProfit;
+int addDigits(int num) 
+{
+    int iDigit = 0;
+    int iSum = 0;
+    while(num >= 10)
+    {
+        iSum = 0;
+        while(num != 0)
+        {
+            iDigit = num % 10;
+            iSum = iSum + iDigit;
