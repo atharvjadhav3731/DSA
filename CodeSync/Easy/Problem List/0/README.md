@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Array, Dynamic Programming
+- Topics: Math, Simulation, Number Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
-- Synced: 2026-11-13T17:30:45.597Z
+- Problem URL: https://leetcode.com/problems/add-digits/description/
+- Synced: 2026-11-17T17:32:53.262Z
 
 ## Problem Description
 
-You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0. Original Java Example 1: Input: prices = [7,1,5,3,6,4] Output: 5 Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5. Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell. Example 2: Input: prices = [7,6,4,3,1] Output: 0 Explanation: In this case, no transactions are done and the max profit = 0. Constraints: 1 <= prices.length <= 105 0 <= prices[i] <= 104
+Given an integer num, repeatedly add all its digits until the result has only one digit, and return it. Original C Example 1: Input: num = 38 Output: 2 Explanation: The process is 38 --> 3 + 8 --> 11 11 --> 1 + 1 --> 2 Since 2 has only one digit, return it. Example 2: Input: num = 0 Output: 0 Constraints: 0 <= num <= 231 - 1 Follow up: Could you do it without any loop/recursion in O(1) runtime?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Dynamic Programming. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Math, Simulation, Number Theory. Review the synced source file for the implementation details.
