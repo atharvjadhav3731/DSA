@@ -1,15 +1,16 @@
 {
-  "submissionTimestamp": "2026-11-13T17:30:45.597Z",
+  "submissionTimestamp": "2026-11-17T17:32:53.262Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Dynamic Programming"
+    "Math",
+    "Simulation",
+    "Number Theory"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/",
-  "submissionId": "6f29gr"
+  "problemUrl": "https://leetcode.com/problems/add-digits/description/",
+  "submissionId": "x3k2m4"
 }
