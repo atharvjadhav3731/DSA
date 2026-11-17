@@ -7,16 +7,17 @@
  * Topics: Math, Simulation, Number Theory
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-26T09:47:03.184Z
+ * Synced: 2026-11-17T17:33:42.386Z
  */
 
-iDigit = num % 10;
-        {
-        while(num != 0)
-    {
-    while(num >= 10)
-    int iSum = 0;
-    int iDigit = 0;
-{
 int addDigits(int num) 
+{
+    int iDigit = 0;
+    int iSum = 0;
+    while(num >= 10)
+    {
         iSum = 0;
+        while(num != 0)
+        {
+            iDigit = num % 10;
+            iSum = iSum + iDigit;
