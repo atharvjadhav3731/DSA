@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-11-20T17:52:48.355Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Binary Search",
+    "Bit Manipulation",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Missing Number",
+  "problemUrl": "https://leetcode.com/problems/missing-number/description/",
+  "submissionId": "5xp767"
+}
