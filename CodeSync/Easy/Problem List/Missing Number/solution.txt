@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Missing Number
+ * URL: https://leetcode.com/problems/missing-number/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-20T17:52:48.355Z
+ */
+
+class Solution {
+    public int missingNumber(int[] nums) {
+        int n = nums.length;
+        int sum = n * (n + 1) / 2;
+
+        for (int num : nums) {
+            sum -= num;
+        }
+
+        return sum;
+    }
