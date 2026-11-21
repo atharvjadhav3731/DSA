@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Math, Simulation, Number Theory
+- Topics: Array, Two Pointers
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-digits/description/
-- Synced: 2026-11-17T17:32:53.262Z
+- Problem URL: https://leetcode.com/problems/move-zeroes/description/
+- Synced: 2026-11-21T19:14:39.514Z
 
 ## Problem Description
 
-Given an integer num, repeatedly add all its digits until the result has only one digit, and return it. Original C Example 1: Input: num = 38 Output: 2 Explanation: The process is 38 --> 3 + 8 --> 11 11 --> 1 + 1 --> 2 Since 2 has only one digit, return it. Example 2: Input: num = 0 Output: 0 Constraints: 0 <= num <= 231 - 1 Follow up: Could you do it without any loop/recursion in O(1) runtime?
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. Note that you must do this in-place without making a copy of the array. Original Java Example 1: Input: nums = [0,1,0,3,12] Output: [1,3,12,0,0] Example 2: Input: nums = [0] Output: [0] Constraints: 1 <= nums.length <= 104 -231 <= nums[i] <= 231 - 1 Follow up: Could you minimize the total number of operations done?
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Math, Simulation, Number Theory. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
