@@ -1,23 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/add-digits/description/
+ * URL: https://leetcode.com/problems/move-zeroes/description/
  * Language: Problem List
  * Difficulty: Easy
- * Topics: Math, Simulation, Number Theory
+ * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-17T17:32:53.262Z
+ * Synced: 2026-11-21T19:14:39.514Z
  */
 
-int addDigits(int num) 
-{
-    int iDigit = 0;
-    int iSum = 0;
-    while(num >= 10)
-    {
-        iSum = 0;
-        while(num != 0)
-        {
-            iDigit = num % 10;
-            iSum = iSum + iDigit;
+class Solution {
+    public void moveZeroes(int[] nums) {
+
+        int j = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            if (nums[i] != 0) {
+
+                int temp = nums[i];
+                nums[i] = nums[j];
