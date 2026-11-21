@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-11-17T17:32:53.262Z",
+  "submissionTimestamp": "2026-11-21T19:14:39.514Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Math",
-    "Simulation",
-    "Number Theory"
+    "Array",
+    "Two Pointers"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/add-digits/description/",
-  "submissionId": "x3k2m4"
+  "problemUrl": "https://leetcode.com/problems/move-zeroes/description/",
+  "submissionId": "ci0gpx"
 }
