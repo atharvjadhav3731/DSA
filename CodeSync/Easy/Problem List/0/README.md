@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Array, Two Pointers
+- Topics: Hash Table, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/move-zeroes/description/
-- Synced: 2026-11-22T17:27:36.503Z
+- Problem URL: https://leetcode.com/problems/word-pattern/description/
+- Synced: 2026-11-23T17:45:56.446Z
 
 ## Problem Description
 
-Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. Note that you must do this in-place without making a copy of the array. Original Java Example 1: Input: nums = [0,1,0,3,12] Output: [1,3,12,0,0] Example 2: Input: nums = [0] Output: [0] Constraints: 1 <= nums.length <= 104 -231 <= nums[i] <= 231 - 1 Follow up: Could you minimize the total number of operations done?
+Given a pattern and a string s, find if s follows the same pattern. Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s. Specifically: Each letter in pattern maps to exactly one unique word in s. Each unique word in s maps to exactly one letter in pattern. No two letters map to the same word, and no two words map to the same letter. Original Java Example 1: Input: pattern = "abba", s = "dog cat cat dog" Output: true Explanation: The bijection can be established as: 'a' maps to "dog". 'b' maps to "cat". Example 2: Input: pattern = "abba", s = "dog cat cat fish" Output: false Example 3: Input: pattern = "aaaa", s = "dog cat cat dog" Output: false Constraints: 1 <= pattern.length <= 300 pattern contains only lower-case English letters. 1 <= s.length <= 3000 s contains only lowercase English letters and spaces ' '. s does not contain any leading or trailing spaces. All the words in s are separated by a single space.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String. Review the synced source file for the implementation details.
