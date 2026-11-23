@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-11-22T17:27:36.503Z",
+  "submissionTimestamp": "2026-11-23T17:45:56.446Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Array",
-    "Two Pointers"
+    "Hash Table",
+    "String"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/move-zeroes/description/",
-  "submissionId": "ci0gpx"
+  "problemUrl": "https://leetcode.com/problems/word-pattern/description/",
+  "submissionId": "cf8w0i"
 }
