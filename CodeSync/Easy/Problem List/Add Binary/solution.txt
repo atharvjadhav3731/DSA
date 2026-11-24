@@ -7,7 +7,7 @@
  * Topics: Math, String, Bit Manipulation, Simulation
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-31T17:59:36.777Z
+ * Synced: 2026-11-24T17:53:17.701Z
  */
 
 class Solution {
