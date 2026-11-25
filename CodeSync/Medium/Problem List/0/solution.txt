@@ -1,23 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/3sum/description/
+ * URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Two Pointers, Sorting
+ * Topics: Hash Table, String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-10T17:09:22.764Z
+ * Synced: 2026-11-25T23:38:02.516Z
  */
 
-import java.util.*;
-
 class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
+    public int lengthOfLongestSubstring(String s) {
 
-        Arrays.sort(nums);
+        int max = 0;
+        int start = 0;
 
-        for (int i = 0; i < nums.length - 2; i++) {
+        for (int end = 0; end < s.length(); end++) {
 
-            // Skip duplicate first elements
+            for (int i = start; i < end; i++) {
+
+                if (s.charAt(i) == s.charAt(end)) {
