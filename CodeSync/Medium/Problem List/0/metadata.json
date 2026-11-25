@@ -1,16 +1,16 @@
 {
-  "submissionTimestamp": "2026-11-10T17:09:22.764Z",
+  "submissionTimestamp": "2026-11-25T23:38:02.516Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
-    "Array",
-    "Two Pointers",
-    "Sorting"
+    "Hash Table",
+    "String",
+    "Sliding Window"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/3sum/description/",
-  "submissionId": "6tgka2"
+  "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+  "submissionId": "io0hbo"
 }
