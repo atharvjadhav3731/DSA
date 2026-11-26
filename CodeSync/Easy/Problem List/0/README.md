@@ -3,16 +3,16 @@
 - Platform: LeetCode
 - Language: Problem List
 - Difficulty: Easy
-- Topics: Hash Table, String
+- Topics: Array, Math
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/word-pattern/description/
-- Synced: 2026-11-23T17:45:56.446Z
+- Problem URL: https://leetcode.com/problems/plus-one/description/
+- Synced: 2026-11-26T18:38:09.130Z
 
 ## Problem Description
 
-Given a pattern and a string s, find if s follows the same pattern. Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s. Specifically: Each letter in pattern maps to exactly one unique word in s. Each unique word in s maps to exactly one letter in pattern. No two letters map to the same word, and no two words map to the same letter. Original Java Example 1: Input: pattern = "abba", s = "dog cat cat dog" Output: true Explanation: The bijection can be established as: 'a' maps to "dog". 'b' maps to "cat". Example 2: Input: pattern = "abba", s = "dog cat cat fish" Output: false Example 3: Input: pattern = "aaaa", s = "dog cat cat dog" Output: false Constraints: 1 <= pattern.length <= 300 pattern contains only lower-case English letters. 1 <= s.length <= 3000 s contains only lowercase English letters and spaces ' '. s does not contain any leading or trailing spaces. All the words in s are separated by a single space.
+You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's. Increment the large integer by one and return the resulting array of digits. Original Java Example 1: Input: digits = [1,2,3] Output: [1,2,4] Explanation: The array represents the integer 123. Incrementing by one gives 123 + 1 = 124. Thus, the result should be [1,2,4]. Example 2: Input: digits = [4,3,2,1] Output: [4,3,2,2] Explanation: The array represents the integer 4321. Incrementing by one gives 4321 + 1 = 4322. Thus, the result should be [4,3,2,2]. Example 3: Input: digits = [9] Output: [1,0] Explanation: The array represents the integer 9. Incrementing by one gives 9 + 1 = 10. Thus, the result should be [1,0]. Constraints: 1 <= digits.length <= 100 0 <= digits[i] <= 9 digits does not contain any leading 0's.
 
 ## Explanation
 
-This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Math. Review the synced source file for the implementation details.
