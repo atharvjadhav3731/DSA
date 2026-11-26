@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-11-23T17:45:56.446Z",
+  "submissionTimestamp": "2026-11-26T18:38:09.130Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table",
-    "String"
+    "Array",
+    "Math"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/word-pattern/description/",
-  "submissionId": "cf8w0i"
+  "problemUrl": "https://leetcode.com/problems/plus-one/description/",
+  "submissionId": "7y7yv3"
 }
