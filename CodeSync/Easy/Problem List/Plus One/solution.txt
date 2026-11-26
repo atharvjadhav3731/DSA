@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Plus One
+ * URL: https://leetcode.com/problems/plus-one/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Math
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-11-26T18:38:57.533Z
+ */
+
+digits[i] = 0;
+        }
+
+        int[] result = new int[digits.length + 1];
+
+        result[0] = 1;
+
+        return result;
+    }
+}
