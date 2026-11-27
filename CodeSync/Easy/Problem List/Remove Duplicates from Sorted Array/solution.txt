@@ -1,16 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Duplicates from Sorted Array
- * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/2166620598/
+ * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers
- * Runtime: 0 ms
- * Memory: 46.83 MB
- * Synced: 2026-10-08T17:54:42.852Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-27T19:37:09.718Z
  */
 
-int k = 1;
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int k = 1;
 
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] != nums[i - 1]) {
@@ -18,7 +20,3 @@ int k = 1;
                 k++;
             }
         }
-
-        return k;
-    }
-}
