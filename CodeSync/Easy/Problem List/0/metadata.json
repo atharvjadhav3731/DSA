@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-11-26T18:38:09.130Z",
+  "submissionTimestamp": "2026-11-27T19:36:19.218Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
-    "Math"
+    "Two Pointers"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/plus-one/description/",
-  "submissionId": "7y7yv3"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
+  "submissionId": "bfpwbu"
 }
